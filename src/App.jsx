@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import AdoptedPetContext from "./AdoptedPetContext";
 import Details from "./Details";
 import SearchParams from "./SearchParams";
+import Portfolio from "./Portfolio";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,7 +27,8 @@ const App = () => {
           </header>
           <Routes>
             <Route path="/details/:id" element={<Details />}></Route>
-            <Route path="/" element={<SearchParams />}></Route>
+            <Route path="/" element={<Portfolio />}></Route>
+            <Route path="/SearchParams" element={<SearchParams />}></Route>
           </Routes>
         </AdoptedPetContext.Provider>
       </QueryClientProvider>
