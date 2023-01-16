@@ -164,9 +164,11 @@ header > a,
     margin-right: auto;
   }
 }
+
 #footer {
   width: 400px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #footer ul {
@@ -175,12 +177,11 @@ header > a,
   justify-content: center;
   list-style-type: none;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   padding: 0;
-  margin: 0;
+  margin: 2rem 0;
 }
 
 #footer [class*="fa-"] {
   font-size: 200%;
-
 }
