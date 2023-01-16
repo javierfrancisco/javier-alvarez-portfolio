@@ -37,7 +37,7 @@ const Portfolio = () => {
               </a>
             </li>
             <li>
-              <a href="#projects" target="_blank">
+              <a href="#projects" target="_blank" className="button">
                 Resume
               </a>
             </li>
@@ -58,7 +58,6 @@ const Portfolio = () => {
           .
         </p>
       </section>
-
       <section id="contact">
         <h2>Contact me</h2>
         <p className="contact">
@@ -68,6 +67,38 @@ const Portfolio = () => {
         <p>
           <a href="mailto:javierfrancisco@gmail.com">Email me</a>
         </p>
+      </section>
+      <section id="footer">
+        <h2>Javier Alvarez &middot; 🚀 Software Architect</h2>
+        <p>
+          <ul>
+            <li>
+              <a href="#projects">
+                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/javierfrancisco" target="_blank">
+                <span
+                  class="fa-brands fa-square-github"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Github</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/javierfrancisco" target="_blank">
+                <span
+                  class="fa-solid fa-envelope"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Email Me</span>
+              </a>
+            </li>
+          </ul>
+        </p>
+        <p>&copy; 2023 Javier Alvarez. All rights reserved.</p>
       </section>
     </div>
   );
