@@ -54,9 +54,15 @@ header > a,
   margin: 20px 0;
 }
 
+.section-plum {
+  background-color: var(--plum);
+}
+
 /* intro styles */
 #intro {
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 #intro p {
   font-size: 1rem;
@@ -76,7 +82,6 @@ header > a,
   font-weight: normal;
 }
 #contact {
-  background-color: var(--plum);
   text-align: center;
   width: 400px;
   margin: 0 auto;
@@ -141,10 +146,13 @@ header > a,
   color: var(--magenta);
 }
 
-#navBar .button {
+.button {
   background-color: var(--magenta);
   padding: 0.5rem;
   border-radius: 5px;
+  color: var(--white);
+  font-family: var(--mono);
+  text-decoration: none;
 }
 
 #navBar .button:hover {
@@ -169,6 +177,7 @@ header > a,
   width: 400px;
   margin: 0 auto;
   text-align: center;
+  padding: 4rem 0;
 }
 
 #footer ul {

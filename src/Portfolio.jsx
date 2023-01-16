@@ -58,6 +58,7 @@ const Portfolio = () => {
           .
         </p>
       </section>
+      <div className="section-plum">
       <section id="contact">
         <h2>Contact me</h2>
         <p className="contact">
@@ -65,9 +66,10 @@ const Portfolio = () => {
           writing curricula, or instructional design work.
         </p>
         <p>
-          <a href="mailto:javierfrancisco@gmail.com">Email me</a>
+          <a href="mailto:javierfrancisco@gmail.com" className="button">Email me</a>
         </p>
       </section>
+      </div>
       <section id="footer">
         <h2>Javier Alvarez &middot; 🚀 Software Architect</h2>
         <p>
