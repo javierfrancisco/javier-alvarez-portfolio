@@ -58,6 +58,7 @@ const Portfolio = () => {
           .
         </p>
       </section>
+      <div className="gradient"></div>
       <div className="section-plum">
       <section id="contact">
         <h2>Contact me</h2>
@@ -70,6 +71,7 @@ const Portfolio = () => {
         </p>
       </section>
       </div>
+      <div className="gradient"></div>
       <section id="footer">
         <h2>Javier Alvarez &middot; 🚀 Software Architect</h2>
         <p>
