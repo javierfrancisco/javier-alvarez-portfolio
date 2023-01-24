@@ -58,18 +58,47 @@ const Portfolio = () => {
           .
         </p>
       </section>
+      <div className="section-dkblue">
+      <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <article>
+        <h4>Latest Project</h4>
+        <h3>Guided Product Selector</h3>
+        <p className="black-box">Description of the project. This should be fairly concise while also describing the key components
+          that you developed or worked on. It can be as long as you need it to
+          be but should at least be a few sentences long. Be sure to include
+          specific links anywhere in the description. A link looks like
+          <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>,
+          and multiple links look <a href="#">like this</a> and{" "}
+          <a href="#">like this</a>.
+        </p>
+        <h4>Technologies used include:</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SVG</li>
+        </ul>
+        <img
+          src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
+          alt="Screenshot of the Wall of Wonder."
+        />
+        </article>
+      </section>
+      </div>
       <div className="gradient"></div>
       <div className="section-plum">
-      <section id="contact">
-        <h2>Contact me</h2>
-        <p className="contact">
-          I'm always interested in hearing about new teaching opportunities,
-          writing curricula, or instructional design work.
-        </p>
-        <p>
-          <a href="mailto:javierfrancisco@gmail.com" className="button">Email me</a>
-        </p>
-      </section>
+        <section id="contact">
+          <h2>Contact me</h2>
+          <p className="contact">
+            I'm always interested in hearing about new teaching opportunities,
+            writing curricula, or instructional design work.
+          </p>
+          <p>
+            <a href="mailto:javierfrancisco@gmail.com" className="button">
+              Email me
+            </a>
+          </p>
+        </section>
       </div>
       <div className="gradient"></div>
       <section id="footer">
@@ -93,10 +122,7 @@ const Portfolio = () => {
             </li>
             <li>
               <a href="https://github.com/javierfrancisco" target="_blank">
-                <span
-                  class="fa-solid fa-envelope"
-                  aria-hidden="true"
-                ></span>
+                <span class="fa-solid fa-envelope" aria-hidden="true"></span>
                 <span class="sr-only">Email Me</span>
               </a>
             </li>
