@@ -67,19 +67,14 @@ const Portfolio = () => {
               <div className="text">
                 <h4>Latest Project</h4>
                 <h3>Guided Product Selector</h3>
-                <p className="black-box">Description of the project. This should be fairly concise while also describing the key components
-                that you developed or worked on. It can be as long as you need it to
-                be but should at least be a few sentences long. Be sure to include
-                specific links anywhere in the description. A link looks like
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>,
-                and multiple links look <a href="#">like this</a> and{" "}
-                <a href="#">like this</a>.
+                <p className="black-box">A digital product configurator that allows customers to create custom versions of a product by selecting from a range of options. This tool allows customer to design and purchase products online.
                 </p>
                 <h4>Technologies used include:</h4>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>SVG</li>
+                  <li>VueJs</li>
+                  <li>Rest</li>
                 </ul>
               </div>
               <img
@@ -91,21 +86,21 @@ const Portfolio = () => {
         <div className="project-left">
           <article>
               <div className="text">
-                <h4>Latest Project</h4>
-                <h3>Guided Product Selector</h3>
-                <p className="black-box">Description of the project. This should be fairly concise while also describing the key components
-                that you developed or worked on. It can be as long as you need it to
-                be but should at least be a few sentences long. Be sure to include
-                specific links anywhere in the description. A link looks like
+                <h4>Google Maps Integration</h4>
+                <h3>Buscaplex</h3>
+                <p className="black-box">
+                  A website that allows users to search for food places based on their current location.
+                  The website also allows users to set a custom location if they want to search for places in a specific area.
+                A link looks like
                 <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>,
                 and multiple links look <a href="#">like this</a> and{" "}
                 <a href="#">like this</a>.
                 </p>
                 <h4>Technologies used include:</h4>
                 <ul>
+                  <li>Spring</li>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>SVG</li>
                 </ul>
               </div>
               <img
@@ -117,12 +112,10 @@ const Portfolio = () => {
         <div className="project-right">
           <article>
               <div className="text">
-                <h4>Latest Project</h4>
-                <h3>Guided Product Selector</h3>
-                <p className="black-box">Description of the project. This should be fairly concise while also describing the key components
-                that you developed or worked on. It can be as long as you need it to
-                be but should at least be a few sentences long. Be sure to include
-                specific links anywhere in the description. A link looks like
+                <h4>LeetCode</h4>
+                <h3>Code Challenge Compilation</h3>
+                <p className="black-box">A series of algorithm challenges with implementations and test cases.
+                
                 <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>,
                 and multiple links look <a href="#">like this</a> and{" "}
                 <a href="#">like this</a>.
