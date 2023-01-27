@@ -1,49 +1,6 @@
 const Portfolio = () => {
   return (
     <div>
-      <section id="navBar">
-        <nav>
-          <ul>
-            <li>
-              <h1>
-                <a href="index.html">
-                  <span class="fa-solid fa-rocket" aria-hidden="true"></span>
-                  <span>Javier Alvarez</span>
-                </a>
-              </h1>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-            <li>
-              <a href="#projects">
-                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-                <span class="sr-only">LinkedIn</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/javierfrancisco" target="_blank">
-                <span
-                  class="fa-brands fa-square-github"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Github</span>
-              </a>
-            </li>
-            <li>
-              <a href="#projects" target="_blank" className="button">
-                Resume
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </section>
       <section id="intro">
         <p className="name">
           Hi, my name is <span>Javier Alvarez.</span>
@@ -60,14 +17,18 @@ const Portfolio = () => {
       </section>
       <div className="gradient"></div>
       <div className="section-dkblue">
-      <section id="projects">
-        <h2>Projects I'm proud of</h2>
-        <div className="project-right">
-          <article>
+        <section id="projects">
+          <h2>Projects I'm proud of</h2>
+          <div className="project-right">
+            <article>
               <div className="text">
                 <h4>Latest Project</h4>
                 <h3>Guided Product Selector</h3>
-                <p className="black-box">A digital product configurator that allows customers to create custom versions of a product by selecting from a range of options. This tool allows customer to design and purchase products online.
+                <p className="black-box">
+                  A digital product configurator that allows customers to create
+                  custom versions of a product by selecting from a range of
+                  options. This tool allows customer to design and purchase
+                  products online.
                 </p>
                 <h4>Technologies used include:</h4>
                 <ul>
@@ -81,20 +42,23 @@ const Portfolio = () => {
                 src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
                 alt="Screenshot of the Wall of Wonder."
               />
-          </article>
-        </div>
-        <div className="project-left">
-          <article>
+            </article>
+          </div>
+          <div className="project-left">
+            <article>
               <div className="text">
                 <h4>Google Maps Integration</h4>
                 <h3>Buscaplex</h3>
                 <p className="black-box">
-                  A website that allows users to search for food places based on their current location.
-                  The website also allows users to set a custom location if they want to search for places in a specific area.
-                A link looks like
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>,
-                and multiple links look <a href="#">like this</a> and{" "}
-                <a href="#">like this</a>.
+                  A website that allows users to search for food places based on
+                  their current location. The website also allows users to set a
+                  custom location if they want to search for places in a
+                  specific area. A link looks like
+                  <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
+                    this
+                  </a>
+                  , and multiple links look <a href="#">like this</a> and{" "}
+                  <a href="#">like this</a>.
                 </p>
                 <h4>Technologies used include:</h4>
                 <ul>
@@ -107,18 +71,21 @@ const Portfolio = () => {
                 src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
                 alt="Screenshot of the Wall of Wonder."
               />
-          </article>
-        </div>
-        <div className="project-right">
-          <article>
+            </article>
+          </div>
+          <div className="project-right">
+            <article>
               <div className="text">
                 <h4>LeetCode</h4>
                 <h3>Code Challenge Compilation</h3>
-                <p className="black-box">A series of algorithm challenges with implementations and test cases.
-                
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">this</a>,
-                and multiple links look <a href="#">like this</a> and{" "}
-                <a href="#">like this</a>.
+                <p className="black-box">
+                  A series of algorithm challenges with implementations and test
+                  cases.
+                  <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
+                    this
+                  </a>
+                  , and multiple links look <a href="#">like this</a> and{" "}
+                  <a href="#">like this</a>.
                 </p>
                 <h4>Technologies used include:</h4>
                 <ul>
@@ -131,9 +98,9 @@ const Portfolio = () => {
                 src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
                 alt="Screenshot of the Wall of Wonder."
               />
-          </article>
-        </div>
-      </section>
+            </article>
+          </div>
+        </section>
       </div>
       <div className="gradient"></div>
       <div className="section-plum">
@@ -153,31 +120,29 @@ const Portfolio = () => {
       <div className="gradient"></div>
       <section id="footer">
         <h2>Javier Alvarez &middot; 🚀 Software Architect</h2>
-        <p>
-          <ul>
-            <li>
-              <a href="#projects">
-                <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-                <span class="sr-only">LinkedIn</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/javierfrancisco" target="_blank">
-                <span
-                  class="fa-brands fa-square-github"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Github</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/javierfrancisco" target="_blank">
-                <span class="fa-solid fa-envelope" aria-hidden="true"></span>
-                <span class="sr-only">Email Me</span>
-              </a>
-            </li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <a href="#projects">
+              <span className="fa-brands fa-linkedin" aria-hidden="true"></span>
+              <span className="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/javierfrancisco" target="_blank">
+              <span
+                className="fa-brands fa-square-github"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/javierfrancisco" target="_blank">
+              <span className="fa-solid fa-envelope" aria-hidden="true"></span>
+              <span className="sr-only">Email Me</span>
+            </a>
+          </li>
+        </ul>
         <p>&copy; 2023 Javier Alvarez. All rights reserved.</p>
       </section>
     </div>

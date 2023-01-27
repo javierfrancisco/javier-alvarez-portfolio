@@ -6,6 +6,7 @@ import AdoptedPetContext from "./AdoptedPetContext";
 import Details from "./Details";
 import SearchParams from "./SearchParams";
 import Portfolio from "./Portfolio";
+import NavBar from "./NavBar";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -24,6 +25,7 @@ const App = () => {
         <AdoptedPetContext.Provider value={adoptedPet}>
           <header>
             <Link to="/"></Link>
+            <NavBar />
           </header>
           <Routes>
             <Route path="/details/:id" element={<Details />}></Route>
