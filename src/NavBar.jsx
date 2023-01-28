@@ -21,19 +21,22 @@ const NavBar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#projects">
-              <span className="fa-brands fa-linkedin" aria-hidden="true"></span>
-              <span className="sr-only">LinkedIn</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/javierfrancisco" target="_blank">
-              <span
-                className="fa-brands fa-square-github"
-                aria-hidden="true"
-              ></span>
-              <span className="sr-only">Github</span>
-            </a>
+            <div className="iconList">
+              <a href="#projects">
+                <span
+                  className="fa-brands fa-linkedin"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">LinkedIn</span>
+              </a>
+              <a href="https://github.com/javierfrancisco" target="_blank">
+                <span
+                  className="fa-brands fa-square-github"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Github</span>
+              </a>
+            </div>
           </li>
           <li>
             <a href="#projects" target="_blank" className="button">
