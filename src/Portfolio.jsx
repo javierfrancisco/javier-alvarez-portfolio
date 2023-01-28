@@ -3,7 +3,8 @@ const Portfolio = () => {
     <div>
       <section id="intro">
         <p className="name">
-          Hi, my name is <span>Javier Alvarez.</span>
+          <i class="fa-solid fa-terminal"></i> Hi, my name is{" "}
+          <span>Javier Alvarez.</span>
         </p>
         <h2>I develop, create and design digital experiences.</h2>
         <p>I'm a developer specializing in HTML, CSS, JS.</p>

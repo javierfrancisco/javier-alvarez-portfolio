@@ -32,9 +32,6 @@ const App = () => {
             <Route path="/" element={<Portfolio />}></Route>
             <Route path="/SearchParams" element={<SearchParams />}></Route>
           </Routes>
-          <footer>
-            <NavBar />
-          </footer>
         </AdoptedPetContext.Provider>
       </QueryClientProvider>
     </BrowserRouter>
